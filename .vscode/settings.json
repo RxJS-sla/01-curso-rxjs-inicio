@@ -1,3 +1,12 @@
 {
-    "nuxt.isNuxtApp": false
+    "nuxt.isNuxtApp": false,
+    "cSpell.words": [
+        "completa",
+        "Forzar",
+        "Hola",
+        "mismo",
+        "Mundo",
+        "nombre",
+        "resultado"
+    ]
 }
