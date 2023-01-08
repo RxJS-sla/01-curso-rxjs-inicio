@@ -1,14 +1,24 @@
 {
     "nuxt.isNuxtApp": false,
     "cSpell.words": [
+        "cancelar",
         "completa",
+        "Completado",
+        "contador",
+        "Crear",
+        "cuando",
+        "destruido",
         "ejecuta",
         "encuentra",
         "Forzar",
         "Hola",
+        "Intervalo",
+        "limpiar",
+        "llame",
         "mismo",
         "Mundo",
         "nombre",
-        "resultado"
+        "resultado",
+        "subscripcion"
     ]
 }
