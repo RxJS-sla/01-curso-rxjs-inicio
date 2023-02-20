@@ -1,4 +1,4 @@
-import { range , map, fromEvent } from 'rxjs';
+import {map, fromEvent } from 'rxjs';
 
 
 // range(1,5).pipe(
@@ -12,5 +12,10 @@ const keyCode$ = keyUp$.pipe(
     map(event => event.code)
 )
 
+const keyUpPluck$ = keyUp$.pipe(
+    map(x => x.key)
+)
 
-keyCode$.subscribe(code=> console.log('map',code))
+keyUp$.subscribe(code => console.log('all', code))
+keyCode$.subscribe(code => console.log('map', code))
+keyUpPluck$.subscribe(code => console.log('pluck', code))
