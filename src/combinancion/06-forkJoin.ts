@@ -32,6 +32,7 @@ const letras$    = of('a','b','c').pipe( delay(3500) );
 //     console.log(resp)
 // });
 
+//tiene que completarse todo y muestra la funcion del final
 forkJoin({
     num: numeros$,
     int: intervalo$,
